@@ -287,6 +287,7 @@ module.exports = ({ withDevServer = true } = {}) => ({
     ],
   },
   output: {
+    publicPath: '',
     path: path.resolve(workingDirectory),
     filename: "main.js",
     ...output(),
